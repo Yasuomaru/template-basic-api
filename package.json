@@ -1,0 +1,9 @@
+{
+  "name": "template-basic-api",
+  "version": "0.0.1",
+  "description": "Basic template to help me build api's for my students",
+  "main": "main.js",
+  "repository": "https://github.com/Yasuomaru/template-basic-api",
+  "author": "Miguel Silva <miguel.silva.422@gmail.com>",
+  "license": "MIT"
+}
