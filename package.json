@@ -7,7 +7,7 @@
   "author": "Miguel Silva <miguel.silva.422@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "init": "jest --init",
+    "init-setup": "jest --init",
     "test": "jest"
   },
   "devDependencies": {
