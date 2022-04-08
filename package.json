@@ -5,5 +5,15 @@
   "main": "main.js",
   "repository": "https://github.com/Yasuomaru/template-basic-api",
   "author": "Miguel Silva <miguel.silva.422@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "init": "jest --init",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "lint-staged": "^12.3.7",
+    "standard": "^16.0.4"
+  }
 }

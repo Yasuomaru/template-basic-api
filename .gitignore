@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+#remove lock files
+*.lock
+
+#Remove jest config
+jest.config.js
