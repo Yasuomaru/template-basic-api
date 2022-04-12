@@ -8,7 +8,9 @@
   "license": "MIT",
   "scripts": {
     "init-setup": "jest --init",
-    "test": "jest"
+    "test": "jest",
+    "dev": "nodemon --inspect .",
+    "start": "node ."
   },
   "devDependencies": {
     "dotenv": "^16.0.0",
