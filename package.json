@@ -9,7 +9,7 @@
   "scripts": {
     "init-setup": "jest --init",
     "test": "jest",
-    "dev": "nodemon --inspect .",
+    "dev": "nodemon --inspect ./src/main.js",
     "start": "node ."
   },
   "devDependencies": {
@@ -19,5 +19,8 @@
     "lint-staged": "^12.3.7",
     "nodemon": "^2.0.15",
     "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
   }
 }
