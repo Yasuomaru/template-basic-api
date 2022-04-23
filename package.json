@@ -3,14 +3,19 @@
   "version": "0.0.1",
   "description": "Basic template to help me build api's for my students",
   "main": "./src/main.js",
+  "type":"module",
   "repository": "https://github.com/Yasuomaru/template-basic-api",
   "author": "Miguel Silva <miguel.silva.422@gmail.com>",
   "license": "MIT",
   "scripts": {
     "init-setup": "jest --init",
     "test": "jest",
+    "test:staged": "jest",
     "dev": "nodemon --inspect ./src/main.js",
     "start": "node ."
+  },
+  "standard":{
+    "env" : ["jest"]
   },
   "devDependencies": {
     "dotenv": "^16.0.0",
